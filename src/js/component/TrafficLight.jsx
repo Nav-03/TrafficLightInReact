@@ -12,7 +12,7 @@ const TrafficLight = () => {
 					}}
 					className="red-light"
 					style={{
-						backgroundColor: color === "red" ? "purple" : "red",
+						backgroundColor: color === "red" ? "blue" : "red",
 					}}></div>
 
 				<div
@@ -21,8 +21,7 @@ const TrafficLight = () => {
 					}}
 					className="yellow-light"
 					style={{
-						backgroundColor:
-							color === "yellow" ? "purple" : "yellow",
+						backgroundColor: color === "yellow" ? "blue" : "yellow",
 					}}></div>
 
 				<div
@@ -31,7 +30,7 @@ const TrafficLight = () => {
 					}}
 					className="green-light"
 					style={{
-						backgroundColor: color === "green" ? "purple" : "green",
+						backgroundColor: color === "green" ? "blue" : "green",
 					}}></div>
 			</div>
 		</div>
